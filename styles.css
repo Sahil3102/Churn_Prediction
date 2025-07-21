@@ -1,0 +1,72 @@
+/* Sidebar Background */
+/* Sidebar Name */
+[data-testid="stSidebar"]::before {
+    content: "Grahak";
+    display: block;
+    color: #1E293B;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+
+[data-testid="stSidebar"] {
+    background: linear-gradient(to bottom, #DBEAFE, #FFFFFF);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Header */
+[data-testid="stSidebar"] h1 {
+    color: #1E293B;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Sidebar Buttons */
+[data-testid="stSidebar"] .stButton>button {
+    background: linear-gradient(135deg, #3B82F6, #2563EB);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Sidebar Buttons Hover */
+[data-testid="stSidebar"] .stButton>button:hover {
+    background: linear-gradient(135deg, #2563EB, #1E40AF);
+    transform: scale(1.07);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Sidebar Text Input */
+[data-testid="stSidebar"] .stTextInput>div>div>input {
+    background-color: #F8FAFC;
+    color: #1E293B;
+    border-radius: 8px;
+    border: 1px solid #94A3B8;
+    padding: 10px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Sidebar Text Input Focus */
+[data-testid="stSidebar"] .stTextInput>div>div>input:focus {
+    border-color: #3B82F6;
+    box-shadow: 0px 0px 8px rgba(59, 130, 246, 0.5);
+}
+
+/* Sidebar Separator */
+[data-testid="stSidebar"] hr {
+    border: 1px solid #CBD5E1;
+    margin: 20px 0;
+}
